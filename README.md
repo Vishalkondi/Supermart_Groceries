@@ -1,16 +1,123 @@
-# React + Vite
+# 🛒 Supermart Groceries (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React-based grocery e-commerce frontend** that allows users to browse products, add items to cart, and manage their shopping experience with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://vishalkondi.github.io/Supermart_Groceries/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🏠 Home page with product listings
+* 🔍 Search functionality
+* 🛒 Add to Cart / Remove from Cart
+* 📱 Fully responsive design (Mobile + Desktop)
+* ⚡ Fast performance using Vite
+* 🎨 Clean UI with Tailwind CSS
+* 🧠 Global state management using Zustand
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Routing:** React Router DOM
+* **State Management:** Zustand
+* **Deployment:** GitHub Pages
+
+---
+
+## 📂 Folder Structure
+
+```
+Supermart_Groceries/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── store/
+│   ├── router/
+│   └── assets/
+│
+│── public/
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Vishalkondi/Supermart_Groceries.git
+cd Supermart_Groceries
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment (GitHub Pages)
+
+```bash
+npm run deploy
+```
+
+---
+
+## ⚠️ Important Notes
+
+* Uses **HashRouter** for GitHub Pages compatibility
+* Ensure correct `base` path in `vite.config.js`
+* This project is **frontend only** (no backend/API integration)
+
+---
+
+## 🔮 Future Enhancements
+
+* 🔐 User Authentication
+* 💳 Payment Integration
+* 📦 Backend API Integration
+* 📊 Order History
+* ❤️ Wishlist Feature
+
+---
+
+## 👨‍💻 Author
+
+**Vishal Kondi**
+
+* GitHub: https://github.com/Vishalkondi
+* LinkedIn: https://www.linkedin.com/in/vishal-kondi
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
