@@ -5,6 +5,7 @@ A modern **React-based grocery e-commerce frontend** that allows users to browse
 ---
 
 ## 🚀 Live Demo
+<img width="1920" height="872" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/66a0514c-9918-4951-a656-32e973bc750b" />
 
 👉 https://vishalkondi.github.io/Supermart_Groceries/
 
